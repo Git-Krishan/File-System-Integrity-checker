@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Special thank you to Symen Mulder for pointers/suggestions for comparing files
-
+#KRISHAN PUROHIT
 function change_check() {
     #creates temp.txt file to check against the baseline
     tempCreate $1
@@ -31,7 +31,7 @@ function change_check() {
         echo "Finished Check! Results will be stored in temp_Report until a report is generated!"
 
     fi
-
+#KRISHAN PUROHIT
 }
 
 tempCreate() {
@@ -95,3 +95,4 @@ spotDiff() {
 }
 
 change_check "$1"
+#KRISHAN PUROHIT
