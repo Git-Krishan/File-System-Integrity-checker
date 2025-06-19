@@ -2,6 +2,7 @@
 
 #Makes a basic report sorting the found changes by priority level
 #every change displayed with path name
+#KRISHAN PUROHIT
 createReport() {
     echo "HIGH PRIORITY CHANGES"
 
@@ -44,3 +45,4 @@ createReport() {
     cat ./Reports/temp_Report.txt | grep "Flag 11 " | cut -d " " -f 7
 }
 createReport
+#KRISHAN PUROHIT
