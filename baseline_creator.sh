@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#kRISHAN PUROHIT 
 #This will loop through the files in a directory (Put in loop of directories)
 
 #://askubuntu.com/questions/678914/loop-through-all-files-in-a-folder
@@ -34,7 +34,7 @@ makeBase() {
     filename="$prefix$suffix"
     echo $filename
 }
-
+#kRISHAN PUROHIT 
 baselineWrite() {
     #Function loops through all files in a folder
     #Uses recursion to loop through existing subdirectories
@@ -48,7 +48,7 @@ baselineWrite() {
         fi
     done
 }
-
+#kRISHAN PUROHIT 
 nameCheck(){
     #Used to make surea baseline doesn't already exist so it doesn't get overwriten
     for i in "$2"/*
